@@ -1,0 +1,19 @@
+Issue Type,Summary,Description,Priority,Epic Name,Story Points,Sprint
+Epic,Project Submission & Management,"Enable student teams to create, edit and submit project profiles with verified repository URLs.",,Project Submission & Management,,
+Epic,Panel Evaluation & Scoring,Allow panel judges to evaluate student projects using a digital rubric and view results.,,Panel Evaluation & Scoring,,
+Epic,Public Voting & Anti-Sybil,Allow public visitors to browse and vote for projects securely without bot interference.,,Public Voting & Anti-Sybil,,
+Epic,Leaderboard & Live Analytics,Compute and display real-time leaderboards based on votes and judge scores.,,Leaderboard & Live Analytics,,
+Story,Create showcase project profile,"As a student team, I want to create a new showcase project profile, so that I can submit our project for the expo.",High,Project Submission & Management,5,Sprint 1
+Story,Link GitHub repository,"As a student team, I want to link our GitHub repository, so that judges and visitors can verify our code.",High,Project Submission & Management,3,Sprint 1
+Story,Embed demo video link,"As a student team, I want to embed a demo video link, so that our presentation is visible to voters.",Medium,Project Submission & Management,2,Sprint 1
+Story,Validate repository URLs,"As a system, I want to validate repository URLs upon submission, so that only valid and accessible repositories are saved.",High,Project Submission & Management,3,Sprint 1
+Story,View assigned student projects,"As a panel judge, I want to view my assigned student projects, so that I know what to evaluate.",High,Panel Evaluation & Scoring,3,Sprint 1
+Story,Submit scores via digital rubric,"As a panel judge, I want to submit scores using a multi-criteria digital rubric, so that evaluations are standardized.",High,Panel Evaluation & Scoring,8,Sprint 1
+Story,Provide qualitative feedback,"As a panel judge, I want to provide qualitative feedback with my scores, so that students can learn from my assessment.",Medium,Panel Evaluation & Scoring,3,Backlog
+Story,View evaluation analytics post-expo,"As a student team, I want to view the evaluation analytics and judge feedback post-expo, so that we can improve.",Low,Panel Evaluation & Scoring,5,Backlog
+Story,Browse eligible showcase projects,"As a public visitor, I want to browse eligible showcase projects, so that I can decide who to vote for.",High,Public Voting & Anti-Sybil,5,Sprint 2
+Story,Cast vote for favorite project,"As a public visitor, I want to cast a vote for my favorite project, so that they can win the public choice award.",High,Public Voting & Anti-Sybil,5,Sprint 2
+Story,Run automated anti-sybil checks,"As an anti-sybil service, I want to run automated checks (device fingerprinting, IP limits, CAPTCHA) on each vote, so that bots and duplicate votes are blocked.",High,Public Voting & Anti-Sybil,8,Sprint 2
+Story,Encrypt voter credentials,"As a system, I want to encrypt voter credentials in transit and at rest, so that voter data is secure.",High,Public Voting & Anti-Sybil,5,Sprint 2
+Story,Calculate real-time dynamic leaderboards,"As a system, I want to calculate real-time dynamic leaderboards based on votes and judge scores, so that standings are live.",High,Leaderboard & Live Analytics,8,Sprint 2
+Story,View real-time leaderboard,"As an expo attendee, I want to view the real-time leaderboard with sub-300ms latency, so that I can follow the competition without lag.",Medium,Leaderboard & Live Analytics,5,Backlog
