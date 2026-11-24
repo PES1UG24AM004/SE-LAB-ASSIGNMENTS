@@ -36,7 +36,22 @@ Translates the requirements and architecture into a structured Agile backlog and
 ## Note on Agile Planning
 The **Assignment 3** directory contains detailed Jira planning artifacts (including Epics, a Burndown Chart, and Sprint plans) created to reflect the requirements developed in the earlier assignments. 
 
+## Imported Lab Projects
+
+### [Lab 5: Food Delivery Order Queue Manager](./L5_05_food_delivery)
+Contains the Lab 5 coursework focusing on static code analysis (Pylint, Flake8, Bandit) applied to a food delivery kitchen order queue management system.
+*   **Source File**: `delivery_system.py`
+*   **Documentation & Tasks**: Outlined in [`L5_05_food_delivery/README.md`](./L5_05_food_delivery/README.md).
+
+### [Lab 6 & 7: Blood Donation Screening & Centrifuge Verification](./L6_L7_05_blood_donation_screening)
+Contains the Lab 6 coursework focusing on comprehensive code coverage and branch coverage testing for cohort screening and centrifuge equipment monitoring.
+*   **Core Module**: `blood_donation_screening.py` (under `Lab 6/`)
+*   **Test Suites**: Comprehensive test suites including `test_blood_donation.py`, `CodeCoverageTest_blood_donation_screening.py`, and `BranchCoverageTest_blood_donation_screening.py`.
+*   **Reports & Evidence**: Coverage reports and terminal verification logs located in `Lab 6/evidence/`.
+
 ## Repository Contents
 *   `ASSIGNMENT1/` - Contains Requirements, Use Case Diagram, and Use Case Flow documents.
 *   `ASSIGNMENT2/` - Contains the Architecture Component Diagram and Written Justification.
 *   `ASSIGNMENT3/` - Contains Epics, Burndown Chart, Reflection Questions, and Jira import data.
+*   `L5_05_food_delivery/` - Lab 5: Static code analysis and order queue manager for a food delivery kitchen.
+*   `L6_L7_05_blood_donation_screening/` - Lab 6 & 7: Code and branch coverage testing for blood donation screening and centrifuge verification.
